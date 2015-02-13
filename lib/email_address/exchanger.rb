@@ -13,7 +13,7 @@ module EmailAddress
 
     def each(&block)
       mxers.each do |m|
-        yield({host:m[0], ip:m[1], priority:m[2]})
+        yield({:host => m[0], :ip => m[1], :priority => m[2]})
       end
     end
 

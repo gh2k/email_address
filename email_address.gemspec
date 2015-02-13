@@ -23,4 +23,5 @@ validator.}
   spec.add_development_dependency "rake"
   spec.add_dependency "simpleidn"
   spec.add_dependency "netaddr"
+  spec.add_dependency "extensions"
 end

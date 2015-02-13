@@ -1,3 +1,4 @@
+require 'extensions/all'
 require "email_address/address"
 require "email_address/config"
 require "email_address/domain_matcher"

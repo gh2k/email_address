@@ -53,8 +53,8 @@ module EmailAddress
         end
         @domain_name = @registration_name + '.' + @tld
       end
-      @parts = {host_name:@host_name, subdomains:@subdomains, domain_name:@domain_name,
-       registration_name:@registration_name, tld:@tld, ip_address:@ip_address}
+      @parts = {:host_name => @host_name, :subdomains => @subdomains, :domain_name => @domain_name,
+       :registration_name => @registration_name, :tld => @tld, :ip_address => @ip_address}
     end
 
     # Returns provider based on configured domain name matches, or nil if unmatched

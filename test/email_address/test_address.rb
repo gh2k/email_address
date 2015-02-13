@@ -1,4 +1,5 @@
 #encoding: utf-8
+require 'extensions/all'
 require_relative '../test_helper'
 
 class TestAddress < Minitest::Test

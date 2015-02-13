@@ -1,3 +1,4 @@
+require 'extensions/all'
 require_relative '../test_helper'
 
 class TestDomainMatcher < MiniTest::Test
